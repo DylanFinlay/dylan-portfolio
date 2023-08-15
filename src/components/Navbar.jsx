@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
-import Logo from "../assets/Logo5.png";
+import Logo from "../assets/Logo.png";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
