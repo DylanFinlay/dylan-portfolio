@@ -10,7 +10,7 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="fixed w-full h-[90px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
+    <div className="shadow-lg shadow-[#040c16] fixed w-full h-[90px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
       <div>
         <img src={Logo} alt="Profile Logo" style={{ width: "80px" }} />
       </div>
@@ -33,7 +33,7 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link to="skills" smooth={true} offset={-50} duration={500}>
+          <Link to="skills" smooth={true} offset={-110} duration={500}>
             Skills
           </Link>
         </li>
@@ -73,7 +73,7 @@ const Navbar = () => {
             onClick={handleClick}
             to="about"
             smooth={true}
-            offset={-50}
+            offset={-90}
             duration={500}
           >
             About
@@ -84,7 +84,7 @@ const Navbar = () => {
             onClick={handleClick}
             to="projects"
             smooth={true}
-            offset={-70}
+            offset={-80}
             duration={500}
           >
             Projects
@@ -95,7 +95,7 @@ const Navbar = () => {
             onClick={handleClick}
             to="skills"
             smooth={true}
-            offset={-50}
+            offset={-70}
             duration={500}
           >
             Skills

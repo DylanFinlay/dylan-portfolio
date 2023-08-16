@@ -23,7 +23,7 @@ const Home = () => {
         </p>
         <div>
           <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600">
-            <Link to="projects" smooth={true} offset={-70} duration={500}>
+            <Link to="projects" smooth={true} offset={-80} duration={500}>
               View Work
             </Link>{" "}
             <span className="group-hover:rotate-90 duration-300">
