@@ -25,12 +25,12 @@ const Projects = () => {
           {/* Grid Item 1*/}
           <div
             style={{ backgroundImage: `url(${Barbot})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center text-center mx-auto content-div"
           >
             {/*Hover effects*/}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                Autonomous Drink Delivery Robot
+                The Barbot
               </span>
               <div className="pt-8 text-center">
                 <a
@@ -49,7 +49,7 @@ const Projects = () => {
           {/* Grid Item 2*/}
           <div
             style={{ backgroundImage: `url(${WebScrape})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center text-center mx-auto content-div"
           >
             {/*Hover effects*/}
             <div className="opacity-0 group-hover:opacity-100">
@@ -82,12 +82,12 @@ const Projects = () => {
           {/* Grid Item 3*/}
           <div
             style={{ backgroundImage: `url(${SnackTrack})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center text-center mx-auto content-div"
           >
             {/*Hover effects*/}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                React JS Application
+                Snack Track
               </span>
               <div className="pt-8 text-center">
                 <a
@@ -115,7 +115,7 @@ const Projects = () => {
           {/* Grid Item 4*/}
           <div
             style={{ backgroundImage: `url(${Sudoku})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center text-center mx-auto content-div"
           >
             {/*Hover effects*/}
             <div className="opacity-0 group-hover:opacity-100">
@@ -139,7 +139,7 @@ const Projects = () => {
           {/* Grid Item 5*/}
           <div
             style={{ backgroundImage: `url(${TronRobot})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center text-center mx-auto content-div"
           >
             {/*Hover effects*/}
             <div className="opacity-0 group-hover:opacity-100">
@@ -152,12 +152,12 @@ const Projects = () => {
           {/* Grid Item 6*/}
           <div
             style={{ backgroundImage: `url(${Keychain})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center text-center mx-auto content-div"
           >
             {/*Hover effects*/}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                Custom Keychain Assembly
+                Custom Keychain Production
               </span>
             </div>
           </div>
