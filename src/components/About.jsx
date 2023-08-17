@@ -8,7 +8,7 @@ const About = () => {
         <div className="max-w-[1000px] w-full grid sm:grid-cols-3 gap-2">
           <div className="col-span-2">
             <div className="max-w-[1000px] w-full grid grid-cols-2 gap-8">
-              <div className="md:text-right pb-8 pl-4">
+              <div className="md:text-left pb-8 pl-4">
                 <p className="text-4xl font-bold inline border-b-4 border-pink-600">
                   About{" "}
                 </p>
@@ -16,23 +16,28 @@ const About = () => {
               <div></div>
             </div>
             <div className="max-w-[1000px] w-full grid md:grid-cols-2 gap-8 px-4">
-              <div className="md:text-right text-4xl font-bold">
+              <div className="md:text-left text-3xl font-bold">
                 <p>
-                  Hi there. I'm Dylan, nice to meet you. Please take a look
-                  around.
+                  Hi there, welcome to my portfolio. I'm Dylan, an Engineering
+                  student at the University of Waterloo.
                 </p>
               </div>
               <div>
                 <p>
-                  I am passionate about blahblah blahsshhasu hdasuihd shgdsygdgs
-                  agdhsgahd hshgdhasgdh sahdhsa shdhasuhds shhshasd shsj
+                  My main interests are around software development and
+                  robotics. I have experience and interest in the ML/AI fields
+                  and full-stack development. Right now, I'm using TensorFlow's
+                  neural networks to create a custom chatbot for weight lifting!
+                  I love to take on a challenge and I am always prepared to try
+                  something new.
                 </p>
               </div>
             </div>
           </div>
-          <div className="p-4 py-4 md:py-2 flex justify-center items-center col-span-1">
+          {/* Image box. Second column of initial grid */}
+          <div className="p-4 flex justify-center items-center col-span-1">
             <img
-              className="w-auto h-auto max-h-[400px] object-cover"
+              className="w-auto h-auto max-h-[400px] object-cover shadow-lg shadow-pink-600"
               src={Headshot}
               alt="Headshot"
             />
