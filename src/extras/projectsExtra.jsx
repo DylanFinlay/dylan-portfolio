@@ -33,13 +33,14 @@ const Projects = () => {
                 Autonomous Drink Delivery Robot
               </span>
               <div className="pt-8 text-center">
-                <a
-                  href="https://github.com/DylanFinlay/BarBot"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
+                <a href="/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    GitHub
+                    Demo
+                  </button>
+                </a>
+                <a href="/">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Code
                   </button>
                 </a>
               </div>
@@ -57,22 +58,14 @@ const Projects = () => {
                 Web Scraping API
               </span>
               <div className="pt-8 text-center">
-                <a
-                  href="https://github.com/DylanFinlay/OpenGraph-Web-Scraper"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
+                <a href="/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    GitHub
+                    Demo
                   </button>
                 </a>
-                <a
-                  href="https://open-graph-web-scraper.vercel.app/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
+                <a href="/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    View Site
+                    Code
                   </button>
                 </a>
               </div>
@@ -90,22 +83,14 @@ const Projects = () => {
                 React JS Application
               </span>
               <div className="pt-8 text-center">
-                <a
-                  href="https://github.com/DylanFinlay/Snack-track"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
+                <a href="/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    GitHub
+                    Demo
                   </button>
                 </a>
-                <a
-                  href="https://github.com/DylanFinlay/Snack-track"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
+                <a href="/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    View Site
+                    Code
                   </button>
                 </a>
               </div>
@@ -123,13 +108,14 @@ const Projects = () => {
                 Sudoku Solver Game
               </span>
               <div className="pt-8 text-center">
-                <a
-                  href="https://github.com/DylanFinlay/Sudoku-Solver-Game"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
+                <a href="/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    GitHub
+                    Demo
+                  </button>
+                </a>
+                <a href="/">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Code
                   </button>
                 </a>
               </div>
@@ -146,6 +132,18 @@ const Projects = () => {
               <span className="text-2xl font-bold text-white tracking-wider">
                 Mobile 3-Axis Robotic Arm
               </span>
+              <div className="pt-8 text-center">
+                <a href="/">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Demo
+                  </button>
+                </a>
+                <a href="/">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Code
+                  </button>
+                </a>
+              </div>
             </div>
           </div>
 
@@ -159,6 +157,18 @@ const Projects = () => {
               <span className="text-2xl font-bold text-white tracking-wider">
                 Custom Keychain Assembly
               </span>
+              <div className="pt-8 text-center">
+                <a href="/">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Demo
+                  </button>
+                </a>
+                <a href="/">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Code
+                  </button>
+                </a>
+              </div>
             </div>
           </div>
         </div>
