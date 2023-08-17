@@ -1,6 +1,10 @@
 import React from "react";
 import WebScrape from "../assets/WebScraper.png";
 import SnackTrack from "../assets/SnackTrack.png";
+import Barbot from "../assets/BarBot.jpg";
+import Keychain from "../assets/KeychainAssembly.png";
+import Sudoku from "../assets/SudokuSolver.png";
+import TronRobot from "../assets/TronDaysRobot.jpg";
 
 const Projects = () => {
   return (
@@ -20,13 +24,13 @@ const Projects = () => {
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
           {/* Grid Item 1*/}
           <div
-            style={{ backgroundImage: `url(${WebScrape})` }}
+            style={{ backgroundImage: `url(${Barbot})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/*Hover effects*/}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                React JS Application
+                Autonomous Drink Delivery Robot
               </span>
               <div className="pt-8 text-center">
                 <a href="/">
@@ -45,13 +49,13 @@ const Projects = () => {
 
           {/* Grid Item 2*/}
           <div
-            style={{ backgroundImage: `url(${SnackTrack})` }}
+            style={{ backgroundImage: `url(${WebScrape})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/*Hover effects*/}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                React JS Application
+                Web Scraping API
               </span>
               <div className="pt-8 text-center">
                 <a href="/">
@@ -70,7 +74,7 @@ const Projects = () => {
 
           {/* Grid Item 3*/}
           <div
-            style={{ backgroundImage: `url(${WebScrape})` }}
+            style={{ backgroundImage: `url(${SnackTrack})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/*Hover effects*/}
@@ -95,13 +99,13 @@ const Projects = () => {
 
           {/* Grid Item 4*/}
           <div
-            style={{ backgroundImage: `url(${SnackTrack})` }}
+            style={{ backgroundImage: `url(${Sudoku})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/*Hover effects*/}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                React JS Application
+                Sudoku Solver Game
               </span>
               <div className="pt-8 text-center">
                 <a href="/">
@@ -120,13 +124,13 @@ const Projects = () => {
 
           {/* Grid Item 5*/}
           <div
-            style={{ backgroundImage: `url(${WebScrape})` }}
+            style={{ backgroundImage: `url(${TronRobot})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/*Hover effects*/}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                React JS Application
+                Mobile 3-Axis Robotic Arm
               </span>
               <div className="pt-8 text-center">
                 <a href="/">
@@ -145,13 +149,13 @@ const Projects = () => {
 
           {/* Grid Item 6*/}
           <div
-            style={{ backgroundImage: `url(${SnackTrack})` }}
+            style={{ backgroundImage: `url(${Keychain})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/*Hover effects*/}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                React JS Application
+                Custom Keychain Assembly
               </span>
               <div className="pt-8 text-center">
                 <a href="/">
