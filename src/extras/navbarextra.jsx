@@ -5,7 +5,10 @@ import { BsFillPersonLinesFill } from "react-icons/bs";
 import Logo from "../assets/Logo.png";
 import { Link } from "react-scroll";
 
-const Navbar = ({ nav, handleClick }) => {
+const Navbar = () => {
+  const [nav, setNav] = useState(false);
+  const handleClick = () => setNav(!nav);
+
   return (
     <div className="shadow-lg shadow-[#040c16] fixed w-full h-[90px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
       <div>

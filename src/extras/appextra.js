@@ -1,5 +1,3 @@
-import React, { useState } from "react";
-
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import About from "./components/About";
@@ -8,15 +6,12 @@ import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 
 function App() {
-  const [nav, setNav] = useState(false);
-  const handleClick = () => setNav(!nav);
-
   return (
     <div>
-      <Navbar nav={nav} handleClick={handleClick} />
+      <Navbar />
       <Home />
       <About />
-      <Projects nav={nav} />
+      <Projects />
       <Skills />
       <Contact />
     </div>

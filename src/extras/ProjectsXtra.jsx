@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import WebScrape from "../assets/WebScraper.png";
 import SnackTrack from "../assets/SnackTrack.png";
@@ -7,7 +6,7 @@ import Keychain from "../assets/KeychainAssembly.png";
 import Sudoku from "../assets/SudokuSolver1.png";
 import TronRobot from "../assets/TronDaysRobot.jpg";
 
-const Projects = ({ nav }) => {
+const Projects = () => {
   return (
     <div
       name="projects"
@@ -44,14 +43,11 @@ const Projects = ({ nav }) => {
               </div>
               <div className="text-center">
                 <a
-                  href={
-                    nav ? undefined : "https://github.com/DylanFinlay/BarBot"
-                  }
-                  onClick={nav ? (e) => e.preventDefault() : undefined}
+                  href="https://github.com/DylanFinlay/BarBot"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg ">
                     GitHub
                   </button>
                 </a>
@@ -80,12 +76,7 @@ const Projects = ({ nav }) => {
               </div>
               <div className="text-center">
                 <a
-                  href={
-                    nav
-                      ? undefined
-                      : "https://github.com/DylanFinlay/OpenGraph-Web-Scraper"
-                  }
-                  onClick={nav ? (e) => e.preventDefault() : undefined}
+                  href="https://github.com/DylanFinlay/OpenGraph-Web-Scraper"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -94,12 +85,7 @@ const Projects = ({ nav }) => {
                   </button>
                 </a>
                 <a
-                  href={
-                    nav
-                      ? undefined
-                      : "https://open-graph-web-scraper.vercel.app/"
-                  }
-                  onClick={nav ? (e) => e.preventDefault() : undefined}
+                  href="https://open-graph-web-scraper.vercel.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -132,12 +118,7 @@ const Projects = ({ nav }) => {
               </div>
               <div className="text-center">
                 <a
-                  href={
-                    nav
-                      ? undefined
-                      : "https://github.com/DylanFinlay/Snack-track"
-                  }
-                  onClick={nav ? (e) => e.preventDefault() : undefined}
+                  href="https://github.com/DylanFinlay/Snack-track"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -146,14 +127,13 @@ const Projects = ({ nav }) => {
                   </button>
                 </a>
                 <a
-                  href={nav ? undefined : "https://snack-track.vercel.app/"}
-                  onClick={nav ? (e) => e.preventDefault() : undefined}
+                  href="https://snack-track.vercel.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Site
-                  </button>
+                  </button> 
                 </a>
               </div>
             </div>
@@ -180,12 +160,7 @@ const Projects = ({ nav }) => {
               </div>
               <div className="text-center">
                 <a
-                  href={
-                    nav
-                      ? undefined
-                      : "https://github.com/DylanFinlay/Sudoku-Solver-Game"
-                  }
-                  onClick={nav ? (e) => e.preventDefault() : undefined}
+                  href="https://github.com/DylanFinlay/Sudoku-Solver-Game"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
