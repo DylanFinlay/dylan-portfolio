@@ -1,6 +1,6 @@
 # Dylan Finlay Portfolio
 
-![Portfolio Screenshot](./src/assets/Logo.png)
+![Portfolio Screenshot](./public/LogoDF192.png)
 
 Welcome to my portfolio website! This repository contains the source code for my [personal portfolio](https://dylanfinlay.com), where I showcase my projects, skills, and more.
 
