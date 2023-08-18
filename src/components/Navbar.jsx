@@ -60,7 +60,7 @@ const Navbar = ({ nav, handleClick }) => {
           <img src={Logo} alt="Profile Logo" style={{ width: "80px" }} />
         </div>
         <ul className="text-center">
-          <li className="py-6 text-4xl">
+          <li className="py-4 text-4xl">
             <Link
               onClick={handleClick}
               to="home"
@@ -71,7 +71,7 @@ const Navbar = ({ nav, handleClick }) => {
               Home
             </Link>
           </li>
-          <li className="py-6 text-4xl">
+          <li className="py-4 text-4xl">
             <Link
               onClick={handleClick}
               to="about"
@@ -82,7 +82,7 @@ const Navbar = ({ nav, handleClick }) => {
               About
             </Link>
           </li>
-          <li className="py-6 text-4xl">
+          <li className="py-4 text-4xl">
             <Link
               onClick={handleClick}
               to="projects"
@@ -93,7 +93,7 @@ const Navbar = ({ nav, handleClick }) => {
               Projects
             </Link>
           </li>
-          <li className="py-6 text-4xl">
+          <li className="py-4 text-4xl">
             <Link
               onClick={handleClick}
               to="skills"
@@ -104,7 +104,7 @@ const Navbar = ({ nav, handleClick }) => {
               Skills
             </Link>
           </li>
-          <li className="py-6 text-4xl">
+          <li className="py-4 text-4xl">
             <Link
               onClick={handleClick}
               to="contact"
@@ -117,7 +117,7 @@ const Navbar = ({ nav, handleClick }) => {
           </li>
         </ul>
         {/* Social Icons for Mobile Menu */}
-        <div className="pt-20">
+        <div className="pt-10">
           <p className="uppercase tracking-widest text-pink-600 text-center text-2xl">
             Let&#39;s Connect
           </p>
