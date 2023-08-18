@@ -8,8 +8,10 @@ import { Link } from "react-scroll";
 const Navbar = ({ nav, handleClick }) => {
   return (
     <div className="shadow-lg shadow-[#040c16] fixed w-full h-[90px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
-      <div>
-        <img src={Logo} alt="Profile Logo" style={{ width: "80px" }} />
+      <div className="cursor-pointer">
+        <Link to="home" smooth={true} offset={-90} duration={500}>
+          <img src={Logo} alt="Profile Logo" style={{ width: "80px" }} />
+        </Link>
       </div>
 
       {/* menu */}
@@ -42,7 +44,7 @@ const Navbar = ({ nav, handleClick }) => {
       </ul>
 
       {/*Hamburger*/}
-      <div onClick={handleClick} className="md:hidden z-10">
+      <div onClick={handleClick} className="cursor-pointer md:hidden z-10">
         {!nav ? <FaBars /> : <FaTimes />}
       </div>
 
