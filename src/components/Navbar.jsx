@@ -56,6 +56,9 @@ const Navbar = ({ nav, handleClick }) => {
             : "absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center"
         }
       >
+        <div className="flex w-full items-center justify-between pl-4 pb-1">
+          <img src={Logo} alt="Profile Logo" style={{ width: "80px" }} />
+        </div>
         <ul className="text-center">
           <li className="py-6 text-4xl">
             <Link
