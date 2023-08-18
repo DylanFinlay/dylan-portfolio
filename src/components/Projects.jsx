@@ -127,13 +127,13 @@ const Projects = () => {
                   </button>
                 </a>
                 <a
-                  href="https://github.com/DylanFinlay/Snack-track"
+                  href="https://snack-track.vercel.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:opacity-50">
                     Site
-                  </button>
+                  </button> 
                 </a>
               </div>
             </div>
