@@ -16,10 +16,11 @@ const Home = () => {
         </h2>
         <p className="text-[#8892b0] py-4 max-w-[700px]">
           I'm a 2nd year Mechatronics Engineering student at the University of
-          Waterloo. Currently enrolled in my 2A term, I spend my time studying
-          and working on projects to explore the world of software, machine
-          learning and robotics. As a co-op student, I am actively seeking
-          Winter 2024 internships, so please reach out!
+          Waterloo. I created this website with React.JS and Tailwind CSS, to
+          use as my personal portfolio. Currently enrolled in my 2A term, I
+          spend my time studying and working on projects to explore the world of
+          software, machine learning and robotics. As a co-op student, I am
+          actively seeking Winter 2024 internships, so please reach out!
         </p>
         <div>
           <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600">

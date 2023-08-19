@@ -22,7 +22,7 @@ const About = () => {
                   student at the University of Waterloo.
                 </p>
               </div>
-              <div>
+              <div className="text-gray-400">
                 <p>
                   My main interests are around software development and
                   robotics. I have experience and interest in the ML/AI fields
