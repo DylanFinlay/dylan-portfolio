@@ -13,7 +13,7 @@ Welcome to my portfolio website! This repository contains the source code for my
 
 ## About
 
-This portfolio website was created as part of my journey in mechatronics engineering. It's built using React and Tailwind CSS, and it's focused on highlighting my projects, skills, and experiences.
+This portfolio website was created as part of my journey in mechatronics engineering. It's built using React and Tailwind CSS, and it's focused on highlighting my projects and skills.
 
 ## Projects
 
@@ -34,7 +34,7 @@ Here are some of the skills I've developed:
 - Mechatronics Engineering
 - Software Development
 - Web Development
-- Python, JavaScript
+- Python, C++, JavaScript
 - Robotics
 - Problem Solving
 
