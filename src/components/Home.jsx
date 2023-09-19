@@ -20,7 +20,8 @@ const Home = () => {
           use as my personal portfolio. Currently enrolled in my 2A term, I
           spend my time studying and working on projects to explore the world of
           software, machine learning and robotics. As a co-op student, I am
-          actively seeking Winter 2024 internships, so please reach out!
+          actively seeking connections for future opportunities, so please reach
+          out!
         </p>
         <div>
           <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600">
