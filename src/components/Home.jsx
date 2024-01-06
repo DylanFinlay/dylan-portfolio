@@ -5,7 +5,7 @@ import Headshot from "../assets/Headshot1.JPG";
 
 const Home = () => {
   return (
-    <div name="home" className="w-full h-screen bg-[#0a192f]">
+    <div name="home" className="w-full min-h-screen pt-28 pb-12 flex items-center bg-[#0a192f]">
       {/* Container */}
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
         <div className="max-w-[1000px] w-full grid sm:grid-cols-3 gap-2">

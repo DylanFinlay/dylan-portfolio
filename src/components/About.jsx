@@ -3,7 +3,7 @@ import DoubleRobot from "../assets/DoubleRobot.jpg";
 
 const About = () => {
   return (
-    <div name="about" className="w-full h-screen bg-[#0a192f] text-gray-300">
+    <div name="about" className="w-full min-h-screen py-12 flex items-center bg-[#0a192f] text-gray-300">
       <div className="flex flex-col justify-center items-center w-full h-full">
         <div className="max-w-[1000px] w-full grid sm:grid-cols-3 gap-2">
           <div className="p-4 flex justify-center items-center col-span-1">
