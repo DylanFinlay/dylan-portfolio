@@ -1,11 +1,18 @@
 import React from "react";
-import Headshot from "../assets/Headshot1.JPG";
+import DoubleRobot from "../assets/DoubleRobot.jpg";
 
 const About = () => {
   return (
     <div name="about" className="w-full h-screen bg-[#0a192f] text-gray-300">
       <div className="flex flex-col justify-center items-center w-full h-full">
         <div className="max-w-[1000px] w-full grid sm:grid-cols-3 gap-2">
+          <div className="p-4 flex justify-center items-center col-span-1">
+            <img
+              className="w-auto h-auto max-h-[400px] object-cover shadow-lg shadow-pink-600"
+              src={DoubleRobot}
+              alt="Personal Pic"
+            />
+          </div>
           <div className="col-span-2">
             <div className="max-w-[1000px] w-full grid grid-cols-2 gap-8">
               <div className="pb-8 pl-4">
@@ -33,14 +40,6 @@ const About = () => {
                 </p>
               </div>
             </div>
-          </div>
-          {/* Image box. Second column of initial grid */}
-          <div className="p-4 flex justify-center items-center col-span-1">
-            <img
-              className="w-auto h-auto max-h-[400px] object-cover shadow-lg shadow-pink-600"
-              src={Headshot}
-              alt="Headshot"
-            />
           </div>
         </div>
       </div>
