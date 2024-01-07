@@ -19,7 +19,7 @@ const Skills = () => {
   return (
     <div name="skills" className="w-full py-12 min-h-screen flex items-center bg-[#0a192f] text-gray-300">
       {/*Container*/}
-      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
+      <div className="max-w-[1500px] mx-auto xl:px-40 lg:px-20 md:px-12 sm:px-8 px-4 p-4 flex flex-col justify-center w-full h-full">
         <div>
           <p className="text-4xl font-bold inline border-b-4 border-pink-600">
             Skills
