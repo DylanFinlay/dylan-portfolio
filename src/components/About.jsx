@@ -6,7 +6,7 @@ const About = () => {
     <div name="about" className="w-full min-h-screen py-12 flex items-center bg-[#0a192f] text-gray-300">
       <div className="flex flex-col justify-center items-center w-full h-full">
         <div className="max-w-[1500px] xl:px-40 lg:px-20 md:px-12 sm:px-8 px-4 w-full grid sm:grid-cols-3 gap-2">
-          <div className="p-4 flex justify-center items-center col-span-1">
+          <div className="hidden p-4 sm:flex justify-center items-center col-span-1">
             <img
               className="w-auto h-auto max-h-[400px] object-cover shadow-lg shadow-pink-600"
               src={DoubleRobot}
