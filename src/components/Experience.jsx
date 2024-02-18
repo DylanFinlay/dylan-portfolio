@@ -53,7 +53,7 @@ const Experience = () => {
                   </div>
                   <div className="col-span-7">
                     <h3 className="text-xl font-semibold tracki">
-                      Autonomous Pathing Team Member
+                      Autonomous Path Planner
                     </h3>
                     <time className="text-xs tracki uppercase text-gray-400">
                       Sept 2023 - present
