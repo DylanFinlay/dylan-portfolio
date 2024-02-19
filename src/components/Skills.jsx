@@ -14,10 +14,15 @@ import ReactLogo from "../assets/React.png";
 import Solidworks from "../assets/Solidworks.png";
 import Tailwind from "../assets/Tailwind.png";
 import VScode from "../assets/VScode.png";
+import Linux from "../assets/Linux.png";
+import Docker from "../assets/Docker.png";
 
 const Skills = () => {
   return (
-    <div name="skills" className="w-full py-12 min-h-screen flex items-center bg-[#0a192f] text-gray-300">
+    <div
+      name="skills"
+      className="w-full py-12 min-h-screen flex items-center bg-[#0a192f] text-gray-300"
+    >
       {/*Container*/}
       <div className="max-w-[1500px] mx-auto xl:px-40 lg:px-20 md:px-12 sm:px-8 px-4 p-4 flex flex-col justify-center w-full h-full">
         <div>
@@ -81,6 +86,14 @@ const Skills = () => {
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={Github} alt="Github Icon" />
             <p className="py-1">GitHub</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={Linux} alt="Linux Icon" />
+            <p className="py-1">Linux</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-28 mx-auto" src={Docker} alt="Docker Icon" />
+            <p className="py-4">Docker</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img
