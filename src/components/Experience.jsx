@@ -1,4 +1,5 @@
 import React from "react";
+import programming2 from "../assets/programming2.jpg";
 
 const Experience = () => {
   return (
@@ -25,6 +26,13 @@ const Experience = () => {
                   <span className="text-sm font-bold tracki uppercase text-gray-400">
                     Professional Experience
                   </span>
+                  <div className="flex pt-6 justify-center sm:justify-start">
+                    <img
+                      className="w-auto h-auto max-h-[200px] object-cover shadow-sm shadow-pink-600"
+                      src={programming2}
+                      alt="Programming Pic"
+                    />
+                  </div>
                 </div>
               </div>
               <div className="col-span-12 space-y-12 sm:col-span-9">

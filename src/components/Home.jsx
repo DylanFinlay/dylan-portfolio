@@ -40,7 +40,7 @@ const Home = () => {
               </Link>{" "}
             </div>
           </div>
-          <div className="p-4 flex justify-center items-center col-span-1">
+          <div className="sm:p-4 flex justify-center items-center col-span-1">
             <img
               className="w-auto h-auto max-h-[400px] object-cover shadow-lg shadow-pink-600"
               src={Headshot}
