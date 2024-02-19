@@ -11,7 +11,7 @@ const Projects = ({ nav }) => {
   return (
     <div
       name="projects"
-      className="w-full min-h-screen py-12 flex items-center text-gray-300 bg-[#0a192f]"
+      className="w-full min-h-screen py-12 z-20 flex items-center text-gray-300 bg-[#0a192f]"
     >
       <div className="max-w-[1500px] mx-auto xl:px-40 lg:px-20 md:px-12 sm:px-8 px-4 p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8">

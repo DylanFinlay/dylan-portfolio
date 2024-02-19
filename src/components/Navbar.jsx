@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
@@ -6,6 +6,18 @@ import Logo from "../assets/Logo.png";
 import { Link } from "react-scroll";
 
 const Navbar = ({ nav, handleClick }) => {
+  const [noScroll, setNoScroll] = useState(false);
+
+  useEffect(() => {
+    if (nav) {
+      document.body.style.overflow = "hidden";
+      setNoScroll(true);
+    } else {
+      document.body.style.overflow = "auto";
+      setNoScroll(false);
+    }
+  }, [nav]);
+
   return (
     <div className="shadow-lg shadow-[#040c16] fixed w-full h-[90px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
       <div className="cursor-pointer">
@@ -58,10 +70,10 @@ const Navbar = ({ nav, handleClick }) => {
         className={
           !nav
             ? "hidden"
-            : "absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center pb-20"
+            : "absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center pb-20 z-50"
         }
       >
-        <div className="flex w-full items-center justify-between pl-4 pb-4">
+        <div className="flex w-full items-center justify-between pl-4 pb-2">
           <img src={Logo} alt="Profile Logo" style={{ width: "80px" }} />
         </div>
         <ul className="text-center">
