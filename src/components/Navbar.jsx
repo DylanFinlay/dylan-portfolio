@@ -58,7 +58,7 @@ const Navbar = ({ nav, handleClick }) => {
         className={
           !nav
             ? "hidden"
-            : "absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center pb-20"
+            : "absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center"
         }
       >
         <div className="flex w-full items-center justify-between pl-4 pb-4">
