@@ -58,14 +58,14 @@ const Navbar = ({ nav, handleClick }) => {
         className={
           !nav
             ? "hidden"
-            : "absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center"
+            : "absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center pb-20"
         }
       >
         <div className="flex w-full items-center justify-between pl-4 pb-4">
           <img src={Logo} alt="Profile Logo" style={{ width: "80px" }} />
         </div>
         <ul className="text-center">
-          <li className="py-4 text-4xl">
+          <li className="py-3 text-3xl">
             <Link
               onClick={handleClick}
               to="home"
@@ -76,7 +76,7 @@ const Navbar = ({ nav, handleClick }) => {
               Home
             </Link>
           </li>
-          <li className="py-4 text-4xl">
+          <li className="py-3 text-3xl">
             <Link
               onClick={handleClick}
               to="about"
@@ -87,7 +87,7 @@ const Navbar = ({ nav, handleClick }) => {
               About
             </Link>
           </li>
-          <li className="py-4 text-4xl">
+          <li className="py-3 text-3xl">
             <Link
               onClick={handleClick}
               to="experience"
@@ -98,7 +98,7 @@ const Navbar = ({ nav, handleClick }) => {
               Experience
             </Link>
           </li>
-          <li className="py-4 text-4xl">
+          <li className="py-3 text-3xl">
             <Link
               onClick={handleClick}
               to="projects"
@@ -109,7 +109,7 @@ const Navbar = ({ nav, handleClick }) => {
               Projects
             </Link>
           </li>
-          <li className="py-4 text-4xl">
+          <li className="py-3 text-3xl">
             <Link
               onClick={handleClick}
               to="skills"
@@ -120,7 +120,7 @@ const Navbar = ({ nav, handleClick }) => {
               Skills
             </Link>
           </li>
-          <li className="py-4 text-4xl">
+          <li className="py-3 text-3xl">
             <Link
               onClick={handleClick}
               to="contact"
@@ -133,7 +133,7 @@ const Navbar = ({ nav, handleClick }) => {
           </li>
         </ul>
         {/* Social Icons for Mobile Menu */}
-        <div className="pt-10">
+        <div className="pt-8">
           <p className="uppercase tracking-widest text-pink-600 text-center text-2xl">
             Let&#39;s Connect
           </p>
