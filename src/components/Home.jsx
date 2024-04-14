@@ -25,9 +25,9 @@ const Home = () => {
               of Waterloo. I created this website with React.JS and Tailwind CSS
               to use as my personal portfolio. Currently working as a Software
               Developer for Solace Corporation, I spend my days coding and
-              working on projects to explore the world of software, machine
-              learning and robotics. As a co-op student, I am actively seeking
-              connections for future opportunities, so please reach out!
+              working on projects to explore the world of software, AI and
+              robotics. As a co-op student, I am actively seeking connections
+              for future opportunities, so please reach out!
             </p>
             <div>
               <Link to="experience" smooth={true} offset={-80} duration={500}>

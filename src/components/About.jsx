@@ -3,7 +3,10 @@ import DoubleRobot from "../assets/DoubleRobot.jpg";
 
 const About = () => {
   return (
-    <div name="about" className="w-full min-h-screen py-12 flex items-center bg-[#0a192f] text-gray-300">
+    <div
+      name="about"
+      className="w-full min-h-screen py-12 flex items-center bg-[#0a192f] text-gray-300"
+    >
       <div className="flex flex-col justify-center items-center w-full h-full">
         <div className="max-w-[1500px] xl:px-40 lg:px-20 md:px-12 sm:px-8 px-4 w-full grid sm:grid-cols-3 gap-2">
           <div className="hidden p-4 sm:flex justify-center items-center col-span-1">
@@ -31,12 +34,14 @@ const About = () => {
               </div>
               <div className="text-gray-400">
                 <p>
-                  My main interests are around software development and
-                  robotics. I have experience and interest in the ML/AI fields
-                  and full-stack development. Right now, I'm using TensorFlow's
-                  neural networks to create a custom chatbot for weight lifting!
-                  I love to take on a challenge and I am always prepared to try
-                  something new.
+                  I have a strong foundation in software development,
+                  particularly in areas such as autonomous systems, web
+                  application development, and embedded systems. I'm deeply
+                  involved in projects related to robotics and automation, such
+                  as designing autonomous drones and crafting solutions for web
+                  scraping and REST API development. I'm passionate about
+                  pushing the boundaries of technology and enjoy delving into
+                  challenging engineering tasks.
                 </p>
               </div>
             </div>

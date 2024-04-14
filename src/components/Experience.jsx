@@ -42,25 +42,6 @@ const Experience = () => {
                   </div>
                   <div className="col-span-7">
                     <h3 className="text-xl font-semibold tracki">
-                      Software Developer
-                    </h3>
-                    <time className="text-xs tracki uppercase text-gray-400">
-                      Jan 2024 - Present
-                    </time>
-                    <p className="mt-3">
-                      Currently working at Solace Corporation as a Software
-                      Developer for my Winter Co-Op term. Focused on advancing
-                      the back end infrastructure for the team's testing tools,
-                      to support the EDA messaging solution that Solace offers.
-                    </p>
-                  </div>
-                </div>
-                <div className="grid grid-cols-1 sm:grid-cols-8 gap-4">
-                  <div className="col-span-1 hidden sm:flex items-center justify-center">
-                    <div className="w-4 h-4 rounded-full bg-pink-600"></div>
-                  </div>
-                  <div className="col-span-7">
-                    <h3 className="text-xl font-semibold tracki">
                       Autonomous Path Planner
                     </h3>
                     <time className="text-xs tracki uppercase text-gray-400">
@@ -72,6 +53,27 @@ const Experience = () => {
                       team's hand-made drone. My focus revolves around Python
                       software development for drone autonomy. This encompasses
                       computer vision code, path planning, and more.
+                    </p>
+                  </div>
+                </div>
+                <div className="grid grid-cols-1 sm:grid-cols-8 gap-4">
+                  <div className="col-span-1 hidden sm:flex items-center justify-center">
+                    <div className="w-4 h-4 rounded-full bg-pink-600"></div>
+                  </div>
+                  <div className="col-span-7">
+                    <h3 className="text-xl font-semibold tracki">
+                      Software Developer
+                    </h3>
+                    <time className="text-xs tracki uppercase text-gray-400">
+                      Jan 2024 - Apr 2024
+                    </time>
+                    <p className="mt-3">
+                      Previous Co-Op position at Solace Corporation as a
+                      Software Developer, I focused on enhancing back-end
+                      infrastructure for testing tools, particularly supporting
+                      Solace's EDA messaging solution. Leveraging my proficiency
+                      in Python, C, and bash scripting, I contributed to
+                      optimizing efficiency and functionality during my term.
                     </p>
                   </div>
                 </div>
