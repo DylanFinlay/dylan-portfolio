@@ -177,15 +177,6 @@ const Navbar = ({ nav, handleClick }) => {
                 <HiOutlineMail size={30} />
               </div>
             </a>
-            <a
-              href="https://drive.google.com/file/d/14Z2FvnoyVMqtIKcqpyjY0dXIBvPjXsZB/view?usp=drive_link"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                <BsFillPersonLinesFill size={30} />
-              </div>
-            </a>
           </div>
         </div>
       </div>
@@ -221,16 +212,6 @@ const Navbar = ({ nav, handleClick }) => {
               rel="noopener noreferrer"
             >
               Email <HiOutlineMail size={30} />
-            </a>
-          </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
-            <a
-              className="flex justify-between items-center w-full text-gray-300"
-              href="https://drive.google.com/file/d/14Z2FvnoyVMqtIKcqpyjY0dXIBvPjXsZB/view?usp=drive_link"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Resume <BsFillPersonLinesFill size={30} />
             </a>
           </li>
         </ul>
