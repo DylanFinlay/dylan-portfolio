@@ -42,17 +42,18 @@ const Experience = () => {
                   </div>
                   <div className="col-span-7">
                     <h3 className="text-xl font-semibold tracki">
-                      Autonomous Path Planner
+                      Autonomous Airside Team Lead || WARG
                     </h3>
                     <time className="text-xs tracki uppercase text-gray-400">
                       Sept 2023 - present
                     </time>
                     <p className="mt-3">
                       A key contributor in the Waterloo Aerial Robotics Group
-                      design team, writing code for the autonomous flight of the
-                      team's hand-made drone. My focus revolves around Python
-                      software development for drone autonomy. This encompasses
-                      computer vision code, path planning, and more.
+                      design team, leading the team in charge of writing code
+                      for the autonomous flight of WARG's custom drone. My focus
+                      revolves around Python software development for drone
+                      autonomy. This encompasses computer vision code, path
+                      planning, and more.
                     </p>
                   </div>
                 </div>
@@ -62,18 +63,17 @@ const Experience = () => {
                   </div>
                   <div className="col-span-7">
                     <h3 className="text-xl font-semibold tracki">
-                      Software Developer
+                      Software Developer || Solace
                     </h3>
                     <time className="text-xs tracki uppercase text-gray-400">
                       Jan 2024 - Apr 2024
                     </time>
                     <p className="mt-3">
-                      Previous Co-Op position at Solace Corporation as a
-                      Software Developer, I focused on enhancing back-end
-                      infrastructure for testing tools, particularly supporting
-                      Solace's EDA messaging solution. Leveraging my proficiency
-                      in Python, C, and bash scripting, I contributed to
-                      optimizing efficiency and functionality during my term.
+                      Focused on enhancing back-end infrastructure for testing
+                      tools, particularly supporting Solace's EDA messaging
+                      solution. Leveraging my proficiency in Python, C, and bash
+                      scripting, I contributed to optimizing efficiency and
+                      functionality during my term.
                     </p>
                   </div>
                 </div>
@@ -83,14 +83,12 @@ const Experience = () => {
                   </div>
                   <div className="col-span-7">
                     <h3 className="text-xl font-semibold tracki">
-                      Web Application Developer
+                      Web Application Developer || Shyftlabs
                     </h3>
                     <time className="text-xs tracki uppercase text-gray-400">
-                      May 2023 - august 2023
+                      May 2023 - Aug 2023
                     </time>
                     <p className="mt-3">
-                      Working with manulife insurance company through the
-                      Waterloo Experience (WE) Accelerate Co-Op program.
                       Designed, implemented and deployed the REST API for a
                       robust python web scraper empowering developers to
                       effortlessly extract open graph tags from diverse
@@ -107,7 +105,7 @@ const Experience = () => {
                       Versatile Workforce
                     </h3>
                     <time className="text-xs tracki uppercase text-gray-400">
-                      Mar 2020 - august 2022
+                      Mar 2020 - Aug 2022
                     </time>
                     <p className="mt-3">
                       Beyond my expertise directly in the field, I also spent
