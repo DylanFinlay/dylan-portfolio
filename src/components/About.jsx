@@ -1,6 +1,5 @@
 import React from "react";
-import DoubleRobot from "../assets/DoubleRobot.jpg";
-import IcelandPortrait from "../assets/dispo-portrait-waterfall.jpg";
+import IcelandPortrait from "../assets/dettifoss-selfie.jpg";
 
 const About = () => {
   return (
@@ -30,7 +29,8 @@ const About = () => {
               <div className="md:text-left text-3xl font-bold">
                 <p>
                   Hi again, welcome to my portfolio. I'm still Dylan, an
-                  Engineering student at the University of Waterloo.
+                  Engineering student at the University of Waterloo, interested
+                  in software and robotics.
                 </p>
               </div>
               <div className="text-gray-400">
@@ -39,10 +39,10 @@ const About = () => {
                   particularly in areas such as autonomous systems, backend
                   development, and embedded programming. I'm deeply involved in
                   projects related to robotics and software, such as designing
-                  autonomous drones and crafting solutions for web scraping and
-                  REST API development. I like to push the boundaries of
-                  technology and I enjoy diving into challenging engineering
-                  tasks with my friends!
+                  autonomous drones and creating/programming a fleet of robots
+                  to autonomously compete in soccer games (coming soon!!!). I
+                  like to push the boundaries of technology and I enjoy diving
+                  into challenging engineering tasks with my friends!
                 </p>
               </div>
             </div>

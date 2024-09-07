@@ -24,9 +24,11 @@ const Home = () => {
               I'm a 3rd year Mechatronics Engineering student at the University
               of Waterloo. Currently working as a Software Developer for Solace
               Corporation, I spend my days coding and working on projects to
-              explore the world of software, AI and robotics. As a co-op
-              student, I am actively seeking connections for future
-              opportunities, so please reach out!
+              explore the world of software, AI and robotics. Don't worry
+              though, I also do other stuff with my life! I love fitness,
+              travel, photography and lots more. As a co-op student, I am
+              actively seeking connections for future opportunities, so please
+              reach out!
             </p>
             <div>
               <Link to="experience" smooth={true} offset={-80} duration={500}>
