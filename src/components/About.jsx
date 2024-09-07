@@ -28,20 +28,20 @@ const About = () => {
             <div className="max-w-[1000px] w-full grid md:grid-cols-2 gap-8 px-4">
               <div className="md:text-left text-3xl font-bold">
                 <p>
-                  Hi there, welcome to my portfolio. I'm Dylan, an Engineering
-                  student at the University of Waterloo.
+                  Hi again, welcome to my portfolio. I'm still Dylan, an
+                  Engineering student at the University of Waterloo.
                 </p>
               </div>
               <div className="text-gray-400">
                 <p>
                   I have a strong foundation in software development,
-                  particularly in areas such as autonomous systems, web
-                  application development, and embedded systems. I'm deeply
-                  involved in projects related to robotics and automation, such
-                  as designing autonomous drones and crafting solutions for web
-                  scraping and REST API development. I'm passionate about
-                  pushing the boundaries of technology and enjoy delving into
-                  challenging engineering tasks.
+                  particularly in areas such as autonomous systems, backend
+                  development, and embedded systems. I'm deeply involved in
+                  projects related to robotics and software, such as designing
+                  autonomous drones and crafting solutions for web scraping and
+                  REST API development. I like to push the boundaries of
+                  technology and I enjoy diving into challenging engineering
+                  tasks with my friends!
                 </p>
               </div>
             </div>

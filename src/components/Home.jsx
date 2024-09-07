@@ -21,13 +21,12 @@ const Home = () => {
               I'm a UW Mechatronics Engineering student.
             </h2>
             <p className="text-[#8892b0] py-4 max-w-[900px]">
-              I'm a 2nd year Mechatronics Engineering student at the University
-              of Waterloo. I created this website with React.JS and Tailwind CSS
-              to use as my personal portfolio. Currently working as a Software
-              Developer for Solace Corporation, I spend my days coding and
-              working on projects to explore the world of software, AI and
-              robotics. As a co-op student, I am actively seeking connections
-              for future opportunities, so please reach out!
+              I'm a 3rd year Mechatronics Engineering student at the University
+              of Waterloo. Currently working as a Software Developer for Solace
+              Corporation, I spend my days coding and working on projects to
+              explore the world of software, AI and robotics. As a co-op
+              student, I am actively seeking connections for future
+              opportunities, so please reach out!
             </p>
             <div>
               <Link to="experience" smooth={true} offset={-80} duration={500}>

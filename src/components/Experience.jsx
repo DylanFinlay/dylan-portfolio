@@ -42,13 +42,34 @@ const Experience = () => {
                   </div>
                   <div className="col-span-7">
                     <h3 className="text-xl font-semibold tracki">
+                      Software Developer || Solace
+                    </h3>
+                    <time className="text-xs tracki uppercase text-gray-400">
+                      Sept 2024 - present
+                    </time>
+                    <p className="mt-3">
+                      I am excited to be starting my next co-op term at Solace,
+                      working with the Cloud Integration team. I will be
+                      focusing on developing and maintaining the Solace Cloud
+                      platform, as well as working on various projects to
+                      enhance the user experience and functionality of the
+                      platform.
+                    </p>
+                  </div>
+                </div>
+                <div className="grid grid-cols-1 sm:grid-cols-8 gap-4">
+                  <div className="col-span-1 hidden sm:flex items-center justify-center">
+                    <div className="w-4 h-4 rounded-full bg-pink-600"></div>
+                  </div>
+                  <div className="col-span-7">
+                    <h3 className="text-xl font-semibold tracki">
                       Autonomous Airside Team Lead || WARG
                     </h3>
                     <time className="text-xs tracki uppercase text-gray-400">
                       Sept 2023 - present
                     </time>
                     <p className="mt-3">
-                      A key contributor in the Waterloo Aerial Robotics Group
+                      A project manager in the Waterloo Aerial Robotics Group
                       design team, leading the team in charge of writing code
                       for the autonomous flight of WARG's custom drone. My focus
                       revolves around Python software development for drone
