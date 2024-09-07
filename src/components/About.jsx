@@ -1,5 +1,6 @@
 import React from "react";
 import DoubleRobot from "../assets/DoubleRobot.jpg";
+import IcelandPortrait from "../assets/dispo-portrait-waterfall.jpg";
 
 const About = () => {
   return (
@@ -12,7 +13,7 @@ const About = () => {
           <div className="hidden p-4 sm:flex justify-center items-center col-span-1">
             <img
               className="w-auto h-auto max-h-[400px] object-cover shadow-lg shadow-pink-600"
-              src={DoubleRobot}
+              src={IcelandPortrait}
               alt="Personal Pic"
             />
           </div>
@@ -36,7 +37,7 @@ const About = () => {
                 <p>
                   I have a strong foundation in software development,
                   particularly in areas such as autonomous systems, backend
-                  development, and embedded systems. I'm deeply involved in
+                  development, and embedded programming. I'm deeply involved in
                   projects related to robotics and software, such as designing
                   autonomous drones and crafting solutions for web scraping and
                   REST API development. I like to push the boundaries of
