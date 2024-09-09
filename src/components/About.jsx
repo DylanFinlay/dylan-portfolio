@@ -28,9 +28,9 @@ const About = () => {
             <div className="max-w-[1000px] w-full grid md:grid-cols-2 gap-8 px-4">
               <div className="md:text-left text-3xl font-bold">
                 <p>
-                  Hi again, welcome to my portfolio. I'm still Dylan, an
-                  Engineering student at the University of Waterloo, interested
-                  in software and robotics.
+                  Hi again, welcome to my portfolio. Thank you for taking the
+                  time to check it out, and feel free to reach out to me if you
+                  have any questions or just want to connect!
                 </p>
               </div>
               <div className="text-gray-400">
