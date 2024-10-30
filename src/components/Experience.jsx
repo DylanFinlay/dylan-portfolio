@@ -42,7 +42,7 @@ const Experience = () => {
                   </div>
                   <div className="col-span-7">
                     <h3 className="text-xl font-semibold tracki">
-                      Software Developer || Solace
+                      Software Developer Intern || Solace
                     </h3>
                     <time className="text-xs tracki uppercase text-gray-400">
                       Sept 2024 - present
@@ -84,7 +84,7 @@ const Experience = () => {
                   </div>
                   <div className="col-span-7">
                     <h3 className="text-xl font-semibold tracki">
-                      Software Developer || Solace
+                      Software Developer Intern || Solace
                     </h3>
                     <time className="text-xs tracki uppercase text-gray-400">
                       Jan 2024 - Apr 2024
@@ -104,7 +104,7 @@ const Experience = () => {
                   </div>
                   <div className="col-span-7">
                     <h3 className="text-xl font-semibold tracki">
-                      Web Application Developer || Shyftlabs
+                      Software Engineering Intern || Shyftlabs
                     </h3>
                     <time className="text-xs tracki uppercase text-gray-400">
                       May 2023 - Aug 2023
