@@ -117,26 +117,6 @@ const Experience = () => {
                     </p>
                   </div>
                 </div>
-                <div className="grid grid-cols-1 sm:grid-cols-8 gap-4">
-                  <div className="col-span-1 hidden sm:flex items-center justify-center">
-                    <div className="w-4 h-4 rounded-full bg-pink-600"></div>
-                  </div>
-                  <div className="col-span-7">
-                    <h3 className="text-xl font-semibold tracki">
-                      Versatile Workforce
-                    </h3>
-                    <time className="text-xs tracki uppercase text-gray-400">
-                      Mar 2020 - Aug 2022
-                    </time>
-                    <p className="mt-3">
-                      Beyond my expertise directly in the field, I also spent
-                      many years building work ethic in high school and summer
-                      jobs. Over 2 years working as a grocery clerk through the
-                      pandemic, as well as a year working various positions at
-                      an obstacle training gym.
-                    </p>
-                  </div>
-                </div>
               </div>
             </div>
           </div>
