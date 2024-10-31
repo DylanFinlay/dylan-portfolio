@@ -1,5 +1,7 @@
 import React from "react";
 import programming2 from "../assets/programming2.jpg";
+import robocup from "../assets/robocup_robot.png";
+import warg from "../assets/warg_drone.jpg";
 
 const Experience = () => {
   return (
@@ -63,27 +65,6 @@ const Experience = () => {
                   </div>
                   <div className="col-span-7">
                     <h3 className="text-xl font-semibold tracki">
-                      Autonomous Airside Team Lead || WARG
-                    </h3>
-                    <time className="text-xs tracki uppercase text-gray-400">
-                      Sept 2023 - present
-                    </time>
-                    <p className="mt-3">
-                      A project manager in the Waterloo Aerial Robotics Group
-                      design team, leading the team in charge of writing code
-                      for the autonomous flight of WARG's custom drone. My focus
-                      revolves around Python software development for drone
-                      autonomy. This encompasses computer vision code, path
-                      planning, and more.
-                    </p>
-                  </div>
-                </div>
-                <div className="grid grid-cols-1 sm:grid-cols-8 gap-4">
-                  <div className="col-span-1 hidden sm:flex items-center justify-center">
-                    <div className="w-4 h-4 rounded-full bg-pink-600"></div>
-                  </div>
-                  <div className="col-span-7">
-                    <h3 className="text-xl font-semibold tracki">
                       Software Developer Intern || Solace
                     </h3>
                     <time className="text-xs tracki uppercase text-gray-400">
@@ -121,7 +102,85 @@ const Experience = () => {
             </div>
           </div>
         </section>
-        {/* Timeline ends at the above div */}
+        {/* First Timeline Ends here */}
+        <div className="p-12">
+          <p className="text-4xl font-italic inline border-b-4 text-gray-300 border-pink-600">
+            Design Teams
+          </p>
+        </div>
+        <section className="shadow-xl shadow-[#040c16] text-gray-100">
+          <div className="container max-w-5xl px-4 py-12 mx-auto">
+            <div className="grid gap-4 mx-4 sm:grid-cols-12">
+              <div className="col-span-12 space-y-12 sm:col-span-9">
+                <div className="grid grid-cols-1 sm:grid-cols-10 gap-4">
+                  <div className="col-span-1 hidden sm:flex items-center justify-center">
+                    <div className="w-4 h-4 rounded-full bg-pink-600"></div>
+                  </div>
+                  <div className="col-span-8">
+                    <h3 className="text-xl font-semibold tracki">
+                      Co-Founder & Software/AI Team Lead || UW RoboSoccer
+                    </h3>
+                    <time className="text-xs tracki uppercase text-gray-400">
+                      Aug 2024 - present
+                    </time>
+                    <p className="mt-3">
+                      Co-Founder of Waterloo's newest SDC design team. Our group
+                      aims to compete in the global RoboCup competition, where
+                      we will present a group of humanoid robots to autonomously
+                      compete in 4v4 soccer matches. The Software/ML/AI Team is
+                      responsible for developing the algorithms that drive our
+                      humanoid robots. This includes computer vision for
+                      recognizing the ball and opponents, decision-making
+                      algorithms for strategic play, and machine learning models
+                      to improve robot performance over time.
+                    </p>
+                  </div>
+                </div>
+                <div className="grid grid-cols-1 sm:grid-cols-10 gap-4">
+                  <div className="col-span-1 hidden sm:flex items-center justify-center">
+                    <div className="w-4 h-4 rounded-full bg-pink-600"></div>
+                  </div>
+                  <div className="col-span-8">
+                    <h3 className="text-xl font-semibold tracki">
+                      Autonomous Airside Project Manager || WARG
+                    </h3>
+                    <time className="text-xs tracki uppercase text-gray-400">
+                      Sept 2023 - Sept 2024
+                    </time>
+                    <p className="mt-3">
+                      A project manager in the Waterloo Aerial Robotics Group
+                      design team, leading the team in charge of writing code
+                      for the autonomous flight of WARG's custom drone. My focus
+                      revolves around Python software development for drone
+                      autonomy. This encompasses computer vision code, path
+                      planning, and more.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="col-span-12 sm:col-span-3">
+                <div className="text-center sm:text-right mb-14 before:block before:w-24 before:h-3 before:mb-5 before:rounded-md before:mx-auto sm:before:mx-0 sm:before:ml-auto before:bg-pink-600">
+                  <h3 className="text-2xl font-semibold">Design Team Experience</h3>
+                  <div className="flex pt-6 justify-center sm:justify-end">
+                    <img
+                      className="w-auto h-auto max-h-[200px] object-cover shadow-sm shadow-pink-600"
+                      src={robocup}
+                      alt="Programming Pic"
+                    />
+                  </div>
+                  <div className="flex pt-6 justify-center sm:justify-end">
+                    <img
+                      className="w-auto h-auto max-h-[200px] object-cover shadow-sm shadow-pink-600"
+                      src={warg}
+                      alt="Programming Pic"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        {/* Timeline ends here */}
       </div>
     </div>
   );
