@@ -389,7 +389,7 @@ const Projects = ({ nav }) => {
               </div>
               <div className="text-center">
                 <p className="px-2 py-2">
-                  Modelled, designed and produces a custom keychain. Seven
+                  Modelled, designed and produced a custom keychain. Seven
                   individual pieces 3D Modelled precisely with SolidWorks, and
                   further hand crafted in the shop.
                 </p>
