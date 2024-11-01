@@ -40,7 +40,7 @@ const Projects = ({ nav }) => {
               <div className="text-center">
                 <p className="px-2 py-2">
                   The BarBot is an autonomous drink delivery robot built using
-                  Lego EV3 Mindstorm hardware, and programmed with RobotC to
+                  Lego EV3 Mindstorm hardware, and programmed with embedded C to
                   deliver drinks on a custom grid system.
                 </p>
               </div>

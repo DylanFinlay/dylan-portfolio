@@ -160,7 +160,9 @@ const Experience = () => {
               </div>
               <div className="col-span-12 sm:col-span-3">
                 <div className="text-center sm:text-right mb-14 before:block before:w-24 before:h-3 before:mb-5 before:rounded-md before:mx-auto sm:before:mx-0 sm:before:ml-auto before:bg-pink-600">
-                  <h3 className="text-2xl font-semibold">Design Team Experience</h3>
+                  <h3 className="text-2xl font-semibold">
+                    Design Team Experience
+                  </h3>
                   <div className="flex pt-6 justify-center sm:justify-end">
                     <img
                       className="w-auto h-auto max-h-[200px] object-cover shadow-sm shadow-pink-600"
