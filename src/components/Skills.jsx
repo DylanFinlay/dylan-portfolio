@@ -16,6 +16,8 @@ import Tailwind from "../assets/Tailwind.png";
 import VScode from "../assets/VScode.png";
 import Linux from "../assets/Linux.png";
 import Docker from "../assets/Docker.png";
+import Java from "../assets/java.png";
+import Bash from "../assets/bash.png";
 
 const Skills = () => {
   return (
@@ -46,6 +48,14 @@ const Skills = () => {
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={C} alt="C Icon" />
             <p className="py-1">C</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={Java} alt="Java Icon" />
+            <p className="py-1">Java</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={Bash} alt="Bash Icon" />
+            <p className="py-1">Bash</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img
