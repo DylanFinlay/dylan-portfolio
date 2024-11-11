@@ -50,12 +50,12 @@ const Experience = () => {
                       Sept 2024 - present
                     </time>
                     <p className="mt-3">
-                      I am excited to be starting my next co-op term at Solace,
-                      working with the Cloud Integration team. I will be
-                      focusing on developing and maintaining the Solace Cloud
-                      platform, as well as working on various projects to
-                      enhance the user experience and functionality of the
-                      platform.
+                      I am excited to be working on Solace's Micro-Integrations
+                      (MI) team this term, where I am working on backend
+                      automation and development. I have been focused on
+                      developing the E2E Java test suite for the newest Cloud
+                      Connector, along with improving the Python tooling for
+                      automation.
                     </p>
                   </div>
                 </div>
