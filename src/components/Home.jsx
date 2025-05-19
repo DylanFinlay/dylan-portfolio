@@ -22,12 +22,12 @@ const Home = () => {
             </h2>
             <p className="text-[#8892b0] py-4 max-w-[900px]">
               I'm a 3rd year Mechatronics Engineering student at the University
-              of Waterloo. Currently in my 3A school term, I spend my days
-              coding and working on projects to explore the world of software,
-              AI and robotics. Don't worry though, I also do other stuff with my
-              life! I love fitness, travel, photography and lots more. As a
-              co-op student, I am actively seeking connections for future
-              opportunities, so please reach out!
+              of Waterloo. Currently working for Ford as a Software Engineer
+              Intern, I spend my days coding and working on projects to explore
+              the world of software and robotics. Don't worry though, I also do
+              other stuff with my life! I love fitness, travel, photography and
+              lots more. As a co-op student, I am actively seeking connections
+              for future opportunities, so please reach out!
             </p>
             <div>
               <Link to="experience" smooth={true} offset={-80} duration={500}>

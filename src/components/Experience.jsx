@@ -44,18 +44,36 @@ const Experience = () => {
                   </div>
                   <div className="col-span-7">
                     <h3 className="text-xl font-semibold tracki">
+                      Software Engineer Intern || Ford
+                    </h3>
+                    <time className="text-xs tracki uppercase text-gray-400">
+                      May 2025 - Aug 2025
+                    </time>
+                    <p className="mt-3">
+                      I am excited to be working with Ford as a Software
+                      Engineer Intern on the Ford Pro Tech team. I will be
+                      contriuting to the backend development of Ford Pro's Order
+                      Management system.
+                    </p>
+                  </div>
+                </div>
+                <div className="grid grid-cols-1 sm:grid-cols-8 gap-4">
+                  <div className="col-span-1 hidden sm:flex items-center justify-center">
+                    <div className="w-4 h-4 rounded-full bg-pink-600"></div>
+                  </div>
+                  <div className="col-span-7">
+                    <h3 className="text-xl font-semibold tracki">
                       Software Developer Intern || Solace
                     </h3>
                     <time className="text-xs tracki uppercase text-gray-400">
-                      Sept 2024 - present
+                      Sept 2024 - Dec 2024
                     </time>
                     <p className="mt-3">
-                      I am excited to be working on Solace's Micro-Integrations
-                      (MI) team this term, where I am working on backend
-                      automation and development. I have been focused on
+                      Worked on Solace's Micro-Integrations (MI) team, where I
+                      worked on test automation and development. I focused on
                       developing the E2E Java test suite for the newest Cloud
-                      Connector, along with improving the Python tooling for
-                      automation.
+                      Integrations, along with improving the Python tooling for
+                      automation through Github Actions.
                     </p>
                   </div>
                 </div>
@@ -85,7 +103,7 @@ const Experience = () => {
                   </div>
                   <div className="col-span-7">
                     <h3 className="text-xl font-semibold tracki">
-                      Software Engineering Intern || Shyftlabs
+                      Software Engineer Intern || Shyftlabs
                     </h3>
                     <time className="text-xs tracki uppercase text-gray-400">
                       May 2023 - Aug 2023
@@ -118,7 +136,7 @@ const Experience = () => {
                   </div>
                   <div className="col-span-8">
                     <h3 className="text-xl font-semibold tracki">
-                      Co-Founder & Software/AI Team Lead || UW RoboSoccer
+                      Co-Founder & Software Team Lead || UW RoboSoccer
                     </h3>
                     <time className="text-xs tracki uppercase text-gray-400">
                       Aug 2024 - present
