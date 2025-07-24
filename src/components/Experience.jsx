@@ -44,16 +44,17 @@ const Experience = () => {
                   </div>
                   <div className="col-span-7">
                     <h3 className="text-xl font-semibold tracki">
-                      Software Engineer Intern || Ford
+                      Software Engineer Intern || Ford Pro
                     </h3>
                     <time className="text-xs tracki uppercase text-gray-400">
                       May 2025 - Aug 2025
                     </time>
                     <p className="mt-3">
-                      I am excited to be working with Ford as a Software
-                      Engineer Intern on the Ford Pro Tech team. I will be
-                      contriuting to the backend development of Ford Pro's Order
-                      Management system.
+                      Worked on Ford Pro’s Order Management team, where I helped
+                      build and maintain fulfillment services across the stack.
+                      I focused on developing a Java Spring API for syncing
+                      legacy orders, modernizing microservices, and improving
+                      CI/CD pipelines with Tekton in GCP.
                     </p>
                   </div>
                 </div>
