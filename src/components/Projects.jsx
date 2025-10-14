@@ -10,6 +10,7 @@ import MachineVision from "../assets/machinevision.PNG";
 import TempSensor from "../assets/TempSensor.jpg";
 import LogAnalyzer from "../assets/log_analyzer.png";
 import SolaceChatbot from "../assets/solaceChatbot.png";
+import TwoAxisMachine from "../assets/twoAxisMachine.png";
 
 const Projects = ({ nav }) => {
   return (
@@ -28,80 +29,6 @@ const Projects = ({ nav }) => {
         {/* Container */}
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
           {/* Grid Item 1*/}
-          <div
-            style={{ backgroundImage: `url(${Barbot})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
-          >
-            {/*Hover effects*/}
-            <div className="opacity-0 group-hover:opacity-100">
-              <div className="text-center">
-                <span className="text-2xl font-bold text-white tracking-wider">
-                  The BarBot
-                </span>
-              </div>
-              <div className="text-center">
-                <p className="px-2 py-2">
-                  The BarBot is an autonomous drink delivery robot built using
-                  Lego EV3 Mindstorm hardware, and programmed with embedded C to
-                  deliver drinks on a custom grid system.
-                </p>
-              </div>
-              <div className="text-center">
-                <a
-                  href={
-                    nav ? undefined : "https://github.com/DylanFinlay/BarBot"
-                  }
-                  onClick={nav ? (e) => e.preventDefault() : undefined}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    GitHub
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          {/* Grid Item 2*/}
-          <div
-            style={{ backgroundImage: `url(${MachineVision})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
-          >
-            {/*Hover effects*/}
-            <div className="opacity-0 group-hover:opacity-100">
-              <div className="text-center">
-                <span className="text-2xl font-bold text-white tracking-wider">
-                  Machine Vision Project
-                </span>
-              </div>
-              <div className="text-center">
-                <p className="px-2 py-2">
-                  Worked with four others in the Toyota Software design
-                  challenge, creating a machine vision solution to detect holes
-                  for the automation of sticker placement.
-                </p>
-              </div>
-              <div className="text-center">
-                <a
-                  href={
-                    nav
-                      ? undefined
-                      : "https://github.com/Ethan118/toyota-software-challenge"
-                  }
-                  onClick={nav ? (e) => e.preventDefault() : undefined}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    GitHub
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          {/* Grid Item 3*/}
           <div
             style={{ backgroundImage: `url(${SolaceChatbot})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
@@ -139,7 +66,7 @@ const Projects = ({ nav }) => {
             </div>
           </div>
 
-          {/* Grid Item 4*/}
+          {/* Grid Item 2*/}
           <div
             style={{ backgroundImage: `url(${LogAnalyzer})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
@@ -177,45 +104,7 @@ const Projects = ({ nav }) => {
             </div>
           </div>
 
-          {/* Grid Item 5*/}
-          <div
-            style={{ backgroundImage: `url(${TempSensor})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
-          >
-            {/*Hover effects*/}
-            <div className="opacity-0 group-hover:opacity-100">
-              <div className="text-center">
-                <span className="text-2xl font-bold text-white tracking-wider">
-                  Arduino Temp. Sensor
-                </span>
-              </div>
-              <div className="text-center">
-                <p className="px-2 py-2">
-                  Built a thermocouple that passes the voltage variance through
-                  an op-amp to be amplified and transmitted to an Arduino Uno,
-                  converting the difference to a Temperature and displaying it.
-                </p>
-              </div>
-              <div className="text-center">
-                <a
-                  href={
-                    nav
-                      ? undefined
-                      : "https://drive.google.com/file/d/1UTBpnicXU3Aa0izgbqsgErvSmViarP_4/view"
-                  }
-                  onClick={nav ? (e) => e.preventDefault() : undefined}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Report
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          {/* Grid Item 6*/}
+          {/* Grid Item 3*/}
           <div
             style={{ backgroundImage: `url(${WebScrape})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
@@ -267,7 +156,141 @@ const Projects = ({ nav }) => {
             </div>
           </div>
 
+          {/* Grid Item 4*/}
+          <div
+            style={{ backgroundImage: `url(${TwoAxisMachine})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            {/*Hover effects*/}
+            <div className="opacity-0 group-hover:opacity-100">
+              <div className="text-center">
+                <span className="text-2xl font-bold text-white tracking-wider">
+                  STM32 Two-Axis Machine
+                </span>
+              </div>
+              <div className="text-center">
+                <p className="px-2 py-2">
+                  Developed a control system for a two-axis machine using an
+                  STM32 microcontroller, enabling precise control of stepper
+                  motors using potentiometers, and limit switches for edges.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* Grid Item 5*/}
+          <div
+            style={{ backgroundImage: `url(${Barbot})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            {/*Hover effects*/}
+            <div className="opacity-0 group-hover:opacity-100">
+              <div className="text-center">
+                <span className="text-2xl font-bold text-white tracking-wider">
+                  The BarBot
+                </span>
+              </div>
+              <div className="text-center">
+                <p className="px-2 py-2">
+                  The BarBot is an autonomous drink delivery robot built using
+                  Lego EV3 Mindstorm hardware, and programmed with embedded C to
+                  deliver drinks on a custom grid system.
+                </p>
+              </div>
+              <div className="text-center">
+                <a
+                  href={
+                    nav ? undefined : "https://github.com/DylanFinlay/BarBot"
+                  }
+                  onClick={nav ? (e) => e.preventDefault() : undefined}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    GitHub
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          {/* Grid Item 6*/}
+          <div
+            style={{ backgroundImage: `url(${MachineVision})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            {/*Hover effects*/}
+            <div className="opacity-0 group-hover:opacity-100">
+              <div className="text-center">
+                <span className="text-2xl font-bold text-white tracking-wider">
+                  Machine Vision Project
+                </span>
+              </div>
+              <div className="text-center">
+                <p className="px-2 py-2">
+                  Worked with four others in the Toyota Software design
+                  challenge, creating a machine vision solution to detect holes
+                  for the automation of sticker placement.
+                </p>
+              </div>
+              <div className="text-center">
+                <a
+                  href={
+                    nav
+                      ? undefined
+                      : "https://github.com/Ethan118/toyota-software-challenge"
+                  }
+                  onClick={nav ? (e) => e.preventDefault() : undefined}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    GitHub
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+
           {/* Grid Item 7*/}
+          <div
+            style={{ backgroundImage: `url(${TempSensor})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            {/*Hover effects*/}
+            <div className="opacity-0 group-hover:opacity-100">
+              <div className="text-center">
+                <span className="text-2xl font-bold text-white tracking-wider">
+                  Arduino Temp. Sensor
+                </span>
+              </div>
+              <div className="text-center">
+                <p className="px-2 py-2">
+                  Built a thermocouple that passes the voltage variance through
+                  an op-amp to be amplified and transmitted to an Arduino Uno,
+                  converting the difference to a Temperature and displaying it.
+                </p>
+              </div>
+              <div className="text-center">
+                <a
+                  href={
+                    nav
+                      ? undefined
+                      : "https://drive.google.com/file/d/1UTBpnicXU3Aa0izgbqsgErvSmViarP_4/view"
+                  }
+                  onClick={nav ? (e) => e.preventDefault() : undefined}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Report
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          {/* Grid Item 8*/}
           <div
             style={{ backgroundImage: `url(${SnackTrack})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
@@ -315,7 +338,7 @@ const Projects = ({ nav }) => {
             </div>
           </div>
 
-          {/* Grid Item 8*/}
+          {/* Grid Item 9*/}
           <div
             style={{ backgroundImage: `url(${Sudoku})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
@@ -353,7 +376,7 @@ const Projects = ({ nav }) => {
             </div>
           </div>
 
-          {/* Grid Item 9*/}
+          {/* Grid Item 10*/}
           <div
             style={{ backgroundImage: `url(${TronRobot})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
@@ -375,7 +398,7 @@ const Projects = ({ nav }) => {
             </div>
           </div>
 
-          {/* Grid Item 10*/}
+          {/* Grid Item 11*/}
           <div
             style={{ backgroundImage: `url(${Keychain})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"

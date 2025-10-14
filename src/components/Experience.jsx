@@ -44,6 +44,26 @@ const Experience = () => {
                   </div>
                   <div className="col-span-7">
                     <h3 className="text-xl font-semibold tracki">
+                      Incoming Software Engineer Intern || German Aerospace
+                      Center (DLR)
+                    </h3>
+                    <time className="text-xs tracki uppercase text-gray-400">
+                      Jan 2026 - Apr 2026
+                    </time>
+                    <p className="mt-3">
+                      I am excited to soon be joining the DLR team in Stuttgart,
+                      Germany, where I will be working on a python-based
+                      simulation framework for hydrogen and electric powered
+                      trains.
+                    </p>
+                  </div>
+                </div>
+                <div className="grid grid-cols-1 sm:grid-cols-8 gap-4">
+                  <div className="col-span-1 hidden sm:flex items-center justify-center">
+                    <div className="w-4 h-4 rounded-full bg-pink-600"></div>
+                  </div>
+                  <div className="col-span-7">
+                    <h3 className="text-xl font-semibold tracki">
                       Software Engineer Intern || Ford Pro
                     </h3>
                     <time className="text-xs tracki uppercase text-gray-400">
