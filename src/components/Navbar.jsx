@@ -1,20 +1,15 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
-import { BsFillPersonLinesFill } from "react-icons/bs";
 import Logo from "../assets/Logo.png";
 import { Link } from "react-scroll";
 
 const Navbar = ({ nav, handleClick }) => {
-  const [noScroll, setNoScroll] = useState(false);
-
   useEffect(() => {
     if (nav) {
       document.body.style.overflow = "hidden";
-      setNoScroll(true);
     } else {
       document.body.style.overflow = "auto";
-      setNoScroll(false);
     }
   }, [nav]);
 
