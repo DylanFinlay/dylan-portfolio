@@ -32,7 +32,7 @@ const Skills = () => {
             Skills
           </p>
           <p className="py-4">
-            // These are some of the technologies I've worked with
+            # These are some of the technologies I've worked with
           </p>
         </div>
 

@@ -15,7 +15,7 @@ const Experience = () => {
             Experience
           </p>
           <p className="py-6">
-            // A little look at my past experience in the field
+            # A little look at my past experience in the field
           </p>
         </div>
         {/* Timeline Starts below this */}
